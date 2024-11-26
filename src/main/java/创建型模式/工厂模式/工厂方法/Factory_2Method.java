@@ -7,10 +7,10 @@ public class Factory_2Method extends FactoryMethod {
             return null;
         }
         if(shape.equalsIgnoreCase("CIRCLE")){
-            return new Circle();
+            return new Circle2();
         }
         if(shape.equalsIgnoreCase("RECTANGEL")){
-            return new Rectangle();
+            return new Rectangle2();
         }
         return null;
     }
